@@ -196,7 +196,7 @@ email["date"] = "2022/10/22"
 email = [
 {
   "user_name": "Kassandra", 
-  "user_address": "kassandra.leyba@gmail.com", 
+  "user_address": "kassandra@gmail.com", 
   "subject": "Hashes!",
   "body": "Today I'm practicing hashes.",
   "time": "11:07 AM",
