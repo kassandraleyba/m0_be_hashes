@@ -16,8 +16,8 @@ states = {
   "Colorado" => "CO"
 }
 
-states.each do |states|
-puts "I am from #{states}."
+states.each do |key, value|
+puts "I am from #{key}, #{value}."
 end
 
 
@@ -40,8 +40,8 @@ birthdays = {
   "Jeff" => "February 12"
 }
 
-birthdays.each do |birthdays|
-  puts "Students birthdays: #{birthdays}."
+birthdays.each do |name, birthday|
+  puts "#{name}'s birthday is #{birthday}."
 end
 
 
@@ -66,6 +66,10 @@ login_statuses = {
   "Jeff" => true
 }
 
-login_statuses.keys.each do |login_statuses|
-  puts login_statuses
+login_statuses.each do |name, value|
+  if value == true
+    puts name
+  else
+    puts
+  end
 end
