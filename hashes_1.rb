@@ -5,10 +5,6 @@
 # the desired result. To check your work, run this
 # file by entering the following command in your Terminal: 
 # `ruby hashes_1.rb`
-foods = {}
-foods["apples"] = 23
-foods["grapes"] = 507
-foods["eggs"] = 48
 
 foods = {
   "apples": 23, 
@@ -22,11 +18,6 @@ puts foods
 # you created above:
 # YOUR CODE HERE
 
-foods = {}
-foods["apples"] = 23
-foods["grapes"] = 507
-foods["eggs"] = 48
-
 foods = {
   "apples": 23, 
   "grapes": 507, 
@@ -39,11 +30,6 @@ puts foods.keys
 # you created above:
 # YOUR CODE HERE
 
-foods = {}
-foods["apples"] = 23
-foods["grapes"] = 507
-foods["eggs"] = 48
-
 foods = {
   "apples": 23, 
   "grapes": 507, 
@@ -55,10 +41,7 @@ puts foods.values
 # Write code that prints the value of the second food of the foods variable 
 # you created above:
 # YOUR CODE HERE
-foods = {}
-foods["apples"] = 23
-foods["grapes"] = 507
-foods["eggs"] = 48
+
 
 foods = {
   "apples": 23, 
@@ -72,11 +55,6 @@ puts foods["grapes"] = 507
 # Then, print the updated hash:
 # YOUR CODE HERE
 
-foods = {}
-foods["apples"] = 23
-foods["grapes"] = 507
-foods["eggs"] = 48
-foods["onions"] = 7
 
 foods = {
   "apples": 23, 
@@ -185,13 +163,13 @@ puts email.values
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
 
-email = {}
-email["user_name"] = ["Kassandra", "Ellie", "Matt"]
-email["user_address"] = ["kassandra@gmail.com", "ellie@gmail.com", "matt@gmail.com"]
-email["subject"] = "Hashes!"
-email["body"] = "Today I'm practicing hashes."
-email["time"] = "11:07 AM"
-email["date"] = "2022/10/22"
+# email = {}
+# email["user_name"] = ["Kassandra", "Ellie", "Matt"]
+# email["user_address"] = ["kassandra@gmail.com", "ellie@gmail.com", "matt@gmail.com"]
+# email["subject"] = "Hashes!"
+# email["body"] = "Today I'm practicing hashes."
+# email["time"] = "11:07 AM"
+# email["date"] = "2022/10/22"
 
 email = [
 {
