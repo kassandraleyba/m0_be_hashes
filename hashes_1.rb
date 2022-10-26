@@ -30,13 +30,14 @@ puts foods.values
 # you created above:
 # YOUR CODE HERE
 
-puts foods["grapes"] = 507
+puts foods[:grapes] = 507
 
 # Write code that adds a food to the foods hash. 
 # Then, print the updated hash:
 # YOUR CODE HERE
 
-puts foods.merge("onions": 7)
+foods[:onions] = 7
+puts foods
 
 #-------------------
 # Part 2: Email
@@ -49,20 +50,10 @@ puts foods.merge("onions": 7)
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
-email = {}
-email["user_name"] = "Kassandra"
-email["user_address"] = "kassandra@gmail.com"
-email["recipient_name"] = "John"
-email["recipient_address"] = "john@gmail.com"
-email["subject"] = "Hashes!"
-email["body"] = "Today I'm practicing hashes."
-email["time"] = "11:07 AM"
-email["date"] = "2022/10/22"
-
-
 # Write code that prints your email hash to the terminal.
 
-email = {
+emails = [
+  {
   "user_name": "Kassandra", 
   "user_address": "kassandra@gmail.com", 
   "recipient_name": "John",
@@ -144,34 +135,31 @@ puts email.values
 # email["time"] = "11:07 AM"
 # email["date"] = "2022/10/22"
 
-email = [
-{
-  "user_name": "Kassandra", 
-  "user_address": "kassandra@gmail.com", 
-  "subject": "Hashes!",
-  "body": "Today I'm practicing hashes.",
-  "time": "11:07 AM",
-  "date": "10/22/2022"
-},
-
-email = 
+emails = [
   {
-  "user_name": "Ellie", 
-  "user_address": "ellie@gmail.com", 
-  "subject": "Hashes!",
-  "body": "Today I'm practicing hashes.",
-  "time": "11:07 AM",
-  "date": "10/22/2022"
-},
-
-email = {
-  "user_name": "Matt", 
-  "user_address": "matt@gmail.com", 
-  "subject": "Hashes!",
-  "body": "Today I'm practicing hashes.",
-  "time": "11:07 AM",
-  "date": "10/22/2022"
-}
+    "user_name": "Kassandra", 
+    "user_address": "kassandra@gmail.com", 
+    "subject": "Hashes!",
+    "body": "Today I'm practicing hashes.",
+    "time": "11:07 AM",
+    "date": "10/22/2022"
+  },
+  {
+    "user_name": "Ellie", 
+    "user_address": "ellie@gmail.com", 
+    "subject": "Hashes!",
+    "body": "Today I'm practicing hashes.",
+    "time": "11:07 AM",
+    "date": "10/22/2022"
+  },
+ {
+    "user_name": "Matt", 
+    "user_address": "matt@gmail.com", 
+    "subject": "Hashes!",
+    "body": "Today I'm practicing hashes.",
+    "time": "11:07 AM",
+    "date": "10/22/2022"
+  }
 ]
 
-puts email
+puts emails
