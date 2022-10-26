@@ -52,7 +52,7 @@ puts foods
 
 # Write code that prints your email hash to the terminal.
 
-emails = [
+email = [
   {
   "user_name": "Kassandra", 
   "user_address": "kassandra@gmail.com", 
