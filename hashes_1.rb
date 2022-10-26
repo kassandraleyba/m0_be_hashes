@@ -18,23 +18,11 @@ puts foods
 # you created above:
 # YOUR CODE HERE
 
-foods = {
-  "apples": 23, 
-  "grapes": 507, 
-  "eggs": 48
-}
-
 puts foods.keys
 
 # Write code that prints all of the 'values' of the foods variable 
 # you created above:
 # YOUR CODE HERE
-
-foods = {
-  "apples": 23, 
-  "grapes": 507, 
-  "eggs": 48
-}
 
 puts foods.values
 
@@ -42,28 +30,13 @@ puts foods.values
 # you created above:
 # YOUR CODE HERE
 
-
-foods = {
-  "apples": 23, 
-  "grapes": 507, 
-  "eggs": 48
-}
-
 puts foods["grapes"] = 507
 
 # Write code that adds a food to the foods hash. 
 # Then, print the updated hash:
 # YOUR CODE HERE
 
-
-foods = {
-  "apples": 23, 
-  "grapes": 507, 
-  "eggs": 48,
-  "onions": 7
-}
-
-puts foods
+puts foods.merge("onions": 7)
 
 #-------------------
 # Part 2: Email
